@@ -5,4 +5,5 @@ type IGun interface {
 	setPower(power int)
 	getName() string
 	getPower() int
+	signGunBackIn()
 }

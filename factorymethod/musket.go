@@ -4,6 +4,9 @@ type musket struct {
 	Gun
 }
 
+func (musket musket) signGunBackIn() {
+}
+
 func newMusket() IGun {
 	return &musket{
 		Gun: Gun{
